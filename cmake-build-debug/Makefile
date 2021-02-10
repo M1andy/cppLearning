@@ -142,6 +142,33 @@ cppLearning/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppLearning.dir\build.make CMakeFiles/cppLearning.dir/build
 .PHONY : cppLearning/fast
 
+cppSTL_learning.obj: cppSTL_learning.cpp.obj
+
+.PHONY : cppSTL_learning.obj
+
+# target to build an object file
+cppSTL_learning.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppLearning.dir\build.make CMakeFiles/cppLearning.dir/cppSTL_learning.cpp.obj
+.PHONY : cppSTL_learning.cpp.obj
+
+cppSTL_learning.i: cppSTL_learning.cpp.i
+
+.PHONY : cppSTL_learning.i
+
+# target to preprocess a source file
+cppSTL_learning.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppLearning.dir\build.make CMakeFiles/cppLearning.dir/cppSTL_learning.cpp.i
+.PHONY : cppSTL_learning.cpp.i
+
+cppSTL_learning.s: cppSTL_learning.cpp.s
+
+.PHONY : cppSTL_learning.s
+
+# target to generate assembly for a file
+cppSTL_learning.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppLearning.dir\build.make CMakeFiles/cppLearning.dir/cppSTL_learning.cpp.s
+.PHONY : cppSTL_learning.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... cppLearning
+	@echo ... cppSTL_learning.obj
+	@echo ... cppSTL_learning.i
+	@echo ... cppSTL_learning.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

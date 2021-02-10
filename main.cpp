@@ -1,20 +1,17 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
+// 包含所有c++标准库，包括vector, algorithm, string等
+// 仅仅g++编译器含有
+#include <bits/stdc++.h>
+#include "cppSTL_learning.cpp"
 
-using namespace std;
 int main() {
-    vector<int> arr {5,6,123,542,78};
-    for(auto s: arr){
-        cout << s << " ";
-    }
-    cout << endl;
+    vecFunc stl_learning;
+    stl_learning.coutArr();
+    stl_learning.sortArr();
+    stl_learning.coutArr();
 
-    sort(arr.begin(), arr.end());
-    for(auto s: arr){
-        cout << s << " ";
-    }
-    cout << endl;
+    stl_learning.changeArr();
+    stl_learning.sortArr();
+    stl_learning.coutArr();
 
     return 0;
 }

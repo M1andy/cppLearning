@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/ClionProjects/cppLearning/cppSTL_learning.cpp">
+			<Option target="cppLearning"/>
+		</Unit>
 		<Unit filename="D:/ClionProjects/cppLearning/main.cpp">
 			<Option target="cppLearning"/>
 		</Unit>

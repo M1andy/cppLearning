@@ -93,12 +93,12 @@ clean: CMakeFiles/cppLearning.dir/clean
 CMakeFiles/cppLearning.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppLearning.dir\build.make CMakeFiles/cppLearning.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppLearning.dir\build.make CMakeFiles/cppLearning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ClionProjects\cppLearning\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target cppLearning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ClionProjects\cppLearning\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target cppLearning"
 .PHONY : CMakeFiles/cppLearning.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cppLearning.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProjects\cppLearning\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProjects\cppLearning\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/cppLearning.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProjects\cppLearning\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/cppLearning.dir/rule

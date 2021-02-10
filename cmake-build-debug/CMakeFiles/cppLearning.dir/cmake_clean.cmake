@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cppLearning.dir/cppSTL_learning.cpp.obj"
   "CMakeFiles/cppLearning.dir/main.cpp.obj"
   "cppLearning.exe"
   "cppLearning.exe.manifest"
