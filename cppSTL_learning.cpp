@@ -10,6 +10,9 @@ private:
     vector<int> oriArr {5,32,4,21,4,61,54,6};
 
 public:
+    // 添加构造函数，初始化数组
+    vecFunc() = default;
+    vecFunc(vector<int> vec): oriArr(vec){}
     // 二分查找
     bool isexist(int i){
         return binary_search(oriArr.begin(), oriArr.end(), i);

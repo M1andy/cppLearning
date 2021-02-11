@@ -4,14 +4,6 @@
 #include "cppSTL_learning.cpp"
 
 int main() {
-    vecFunc stl_learning;
+    vecFunc stl_learning(vector<int> {1,2,3,4,5,6,7});
     stl_learning.coutArr();
-    stl_learning.sortArr();
-    stl_learning.coutArr();
-
-    stl_learning.changeArr();
-    stl_learning.sortArr();
-    stl_learning.coutArr();
-
-    return 0;
 }
